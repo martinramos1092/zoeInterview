@@ -1,3 +1,15 @@
+
+This project was created with xampp
+
+The creation of table on database configured is under database/migrations/2020_05_05_00004_create_users_table.php
+please run php artisan migrate, keep in mind that in this example the mysql is running on port 3307 not 3306
+
+The database must be called zoe_project as you can see on the configuration file or can be changed to any other name.
+
+To create the first user please run php artisan db:seed after that just run php artisan serve to run the project
+
+The loggin page is under /main 
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
