@@ -19,7 +19,6 @@ Route::get('/', function () {
 
 
 Route::get('/main', 'MainController@index');
-//Route::view('/main/register', 'register');
 Route::post('/main/checklogin', 'MainController@checklogin');
 Route::post('/main/successregistration', 'MainController@successregistration');
 Route::post('/main/successedit/{id}', 'MainController@successedit');
